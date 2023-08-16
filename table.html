@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <!-- Required meta tags -->
+     <meta charset="utf-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1" />
+     <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+     <!-- my css -->
+     <link rel="stylesheet" href="style.css" />
+     <title>Table</title>
+  </head>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" style="background-color: rgb(126, 102, 83)">
+      <div class="container">
+        <a class="navbar-brand" href="#"> Hello i'm peraa-a</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#about">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#project">Galery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="table.html">Table</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="form.html">Form</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- akhir navbar -->
+    <!-- table -->
+    <div class="container mt-3">
+            <br> <br> <br>
+            <h2 class="alert text-center mt-9" style="background-color: rgb(170, 134, 104); color: white;" >Daftar siswa kelas XI-RPL</h2>
+              <table id='example'class="table table-striped" style="width:100%">
+                <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css">
+                <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap5.min.css">   
+                <thead>
+                  <tr>
+                    <th>No.</th>
+                    <th>Nama siswa</th>
+                    <th>Kelas</th>  
+                    <th>Nama wali</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Sumanto</td>
+                    <td>XI-RA</td>
+                    <td>Alexander</td>
+                  </tr>
+                  <tr>
+                    <td>2.</td>
+                    <td>Jian</td>
+                    <td>XI-RA</td>
+                    <td>Giyarso alex</td>
+                  </tr>
+                  <tr>
+                    <td>3.</td>
+                    <td>Tri</td>
+                    <td>XI-RA</td>
+                    <td>Ngadiyo</td>
+                  </tr>
+                  <tr>
+                    <td>4.</td>
+                    <td>Atul</td>
+                    <td>XI-RB</td>
+                    <td>Parmi</td>
+                  </tr>
+                  <tr>
+                    <td>5.</td>
+                    <td>Parno</td>
+                    <td>XI-RB</td>
+                    <td>Cipto</td>
+                  </tr>
+                  <tr>
+                    <td>6.</td>
+                    <td>Suwardi</td>
+                    <td>XI-RB</td>
+                    <td>Karno</td>
+                  </tr>
+                  <tr>
+                    <td>7.</td>
+                    <td>Vhariyem</td>
+                    <td>XI-RC</td>
+                    <td>Zhantho</td>
+                  </tr>
+                  <tr>
+                    <td>8.</td>
+                    <td>Ucup</td>
+                    <td>XI-RC</td>
+                    <td>Mustaqim</td>
+                  </tr>
+                  <tr>
+                    <td>9.</td>
+                    <td>Inah</td>
+                    <td>XI-RC</td>
+                    <td>Jubaedah</td>
+                  </tr>
+                  <tr>
+                    <td>10.</td>
+                    <td>Ikbal rejeb</td>
+                    <td>XI-RC</td>
+                    <td>Suro</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+    </div>
+   <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap5.min.js"></script>
+    <script>
+    $(document).ready(function () {
+    $('#example').DataTable();
+    });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>

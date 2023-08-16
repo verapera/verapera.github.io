@@ -1,0 +1,28 @@
+.body {
+  min-height: 2000px;
+}
+
+.jumbotron {
+  background-color: rgb(243, 243, 243);
+  padding-top: 2.5rem;
+}
+
+#about {
+  background-color: rgb(170, 134, 104);
+  color: rgb(243, 243, 243);
+}
+.bg {
+  background-color: rgb(170, 134, 104);
+  color: white;
+}
+
+section {
+  padding-top: 4.3rem;
+}
+
+#cr {
+  padding-bottom: 0px;
+}
+.logo:hover {
+  transform: scale(1.1);
+}
